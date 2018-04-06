@@ -15,8 +15,10 @@ a character vector
 \description{
 Turn valid expressions into character strings.
 }
+\examples{
+strings(a, b, bee)
+}
 \seealso{
 \code{\link{quotes}}, \code{\link{unquote}},
 \code{\link{eply}}, \code{\link{help_eply}}
 }
-

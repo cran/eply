@@ -17,8 +17,12 @@ character vector with quotes around it
 \description{
 Put quotes around each element of a character vector.
 }
+\examples{
+quotes(letters[1:3])
+quotes(letters[1:3], single = TRUE)
+quotes(letters[1:3], single = FALSE)
+}
 \seealso{
 \code{\link{unquote}}, \code{\link{strings}},
 \code{\link{eply}}, \code{\link{help_eply}}
 }
-

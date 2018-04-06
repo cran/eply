@@ -9,7 +9,9 @@ help_eply()
 \description{
 Prints links for tutorials, troubleshooting, bug reports, etc.
 }
-\seealso{
-\code{\link{eply}}
+\examples{
+help_eply()
 }
-
+\seealso{
+\code{\link{eply}}, \code{\link{evals}}
+}
